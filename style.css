@@ -9,9 +9,9 @@
     grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
     grid-template-areas: 
     "nav nav nav nav"
-    "sidebar main main main"
-    "sidebar content1 content2 content3"
-    "sidebar footer footer footer";
+    "main main main main"
+    "content1 content2 content3 content4"
+    "footer footer footer footer";
     grid-gap: 0.2rem;
     font-family:Arial, Helvetica, sans-serif;
     text-transform: uppercase;
@@ -56,6 +56,12 @@ main {
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
+#content4 {
+    background-color: orangered;
+    grid-area: content4;
+    border-radius:var(--main-radius);
+    padding-top:var(--main-padding);
+}
 footer {
     background-color: green;
     grid-area: footer;
@@ -74,6 +80,7 @@ footer {
         "content1"
         "content2"
         "content3"
+        "content4"
         "footer";
     }
 }
