@@ -32,11 +32,13 @@ main {
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
-#sidebar{
+#sidebar1{
     background-color: green;
     grid-area: sidebar;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
+   
+    
 }
 #content1 {
     background-color: orangered;
@@ -62,12 +64,22 @@ main {
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
+#sidebar2{
+    background-color: green;
+    grid-area: sidebar;
+    border-radius:var(--main-radius);
+    padding-top:var(--main-padding);
+   
+    
+
+}
 footer {
     background-color: green;
     grid-area: footer;
     border-radius:var(--main-radius);
     padding-top:var(--main-padding);
 }
+
 
 @media only screen and (max-width: 550px) {
     .container {
